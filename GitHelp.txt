@@ -1,0 +1,31 @@
+Команды для регистрации наших данных
+git config --global user.name "nurbai06"
+git config --global user.email "bayaman20018@gmail.com"
+
+
+команды только для одного проекта
+
+1) Эти команды для инициализации Git в вашем новом проекте
+пишется один раз в начале после создания проекта:
+
+git init
+
+2) Это команда будет вставить вышу ссылку на ваш репозиторий:
+
+git remote add origin https://github.com/nurbai06/oop68-2.git
+
+Основные команды для работы с Git
+
+git status
+
+2) Скопировать в буффер
+
+git add .
+
+3) Сохранить все что у нас в буффере
+
+git commit -m "first lesson save"
+
+4) Отправка сохранений в GitHub
+
+git push origin main или master
