@@ -31,5 +31,27 @@ git commit -m "first lesson save"
 
 git push origin main|master
 
-feat/regiester
+feat/register
 fix/register
+
+5) Удаление всех изменений до последнего обновления
+
+git restore .
+
+6) Удаление после git add .
+
+git reset .
+
+7) Проверка на какой я ветке и список веток
+git branch
+
+8) Создание ветки
+git branch branch_name
+
+9) Переключение на ветку
+git switch branch_name
+
+production
+test
+        | stage
+dev
